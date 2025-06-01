@@ -1,6 +1,7 @@
 import ollama
 
-MODEL_NAME = "gemma3:1b"
+# MODEL_NAME = "gemma3:1b"
+MODEL_NAME = "king-louie"
 
 def main():
     print(f"Now chatting with {MODEL_NAME}")
