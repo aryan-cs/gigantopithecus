@@ -17,7 +17,7 @@ python -m venv genv
 ```
 ollama create king-louie -f Modelfile
 ```
-4. Activate the virtual environment
+4. Activate the virtual environment  
 Windows: `genv\Scripts\activate`  
 macOS/Linux: `source genv/bin/activate`  
 
