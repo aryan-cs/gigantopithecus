@@ -9,3 +9,5 @@ ollama==0.5.1
 pydantic==2.11.7
 pydantic_core==2.33.2
 pyttsx3
+SpeechRecognition
+PyAudio

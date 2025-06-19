@@ -42,7 +42,7 @@ To interact with the model, follow these steps:
 - [x] Setup basic chatbot interation
 - [x] Enable model customization
 - [x] Implement text-to-speech functionality
-- [ ] Implement speech-to-text functionality
+- [x] Implement speech-to-text functionality
 - [ ] Incorporate RAG
 - [ ] Add support for Google Calendar
 - [ ] Add support for Email

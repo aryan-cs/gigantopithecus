@@ -44,18 +44,18 @@ Summary: You are JARVIS. Respond with British-accented professionalism, dry wit,
 
 # Sampling parameters
 
-# Controls randomness ([0, 1] - lower = more deterministic)
-PARAMETER temperature 0.3       
-# Nucleus sampling ([0, 1] - lower = more focused)
-PARAMETER top_p 0.9             
-# Limits sampling to top-k most likely tokens ([1, inf] - lower = more focused)
-PARAMETER top_k 40               
-# Discourages repetition ([1, inf] - higher = more diverse)
-PARAMETER repeat_penalty 1.2     
-# Decrease likelihood of tokens used frequently ([0, 1] - lower = more diverse)
-PARAMETER frequency_penalty 0.5  
-# Decrease likelihood of tokens already used ([0, 1] - lower = more diverse)
-PARAMETER presence_penalty 0.5   
+# Controls randomness (0 = deterministic, higher = more random)
+PARAMETER temperature 0.8
+# Nucleus sampling (limits token pool to top-p cumulative probability)
+PARAMETER top_p 0.95
+# Limits sampling to top-k most likely tokens
+PARAMETER top_k 50
+# Discourages repetition (1.0 = no penalty)
+PARAMETER repeat_penalty 1.1
+# Decrease likelihood of tokens used frequently
+PARAMETER frequency_penalty 0.0
+# Decrease likelihood of tokens already used
+PARAMETER presence_penalty 0.0
 # Typical decoding: 1.0 disables it ([0, 1] - lower = more diverse)
 PARAMETER typical_p 1.0          
 
